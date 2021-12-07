@@ -2,7 +2,7 @@
             position: absolute;
             top: 6%;
             left: 50%;
-            margin-left: px;
+            margin-left: -800px;
             transform: translate(-50%,-50%);
             background-color: #333;
             height: 40px;
@@ -27,7 +27,9 @@
             transition: .4s;
             line-height: 40px;
             font-size: 20px;
-            color: wheat;
+            color: white;
+            background-color: #009966;
+            	border-radius: 10px;
         }
         .cl{
             color: #e94118;
@@ -35,7 +37,6 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background-color: #2f3640;
             display: flex;
             justify-content: center;
             align-items: center;
