@@ -1,0 +1,44 @@
+     .al{
+            position: absolute;
+            top: 6%;
+            left: 50%;
+            margin-left: -800px;
+            transform: translate(-50%,-50%);
+            background-color: #333;
+            height: 40px;
+            border-radius: 40px;
+            padding: 10px;
+            float: left;
+        }
+        .al:hover .bl{
+            width: 200px;
+            padding: 0 6px;
+        }
+        .al:hover .cl{
+            background-color: #333;
+        }
+        .bl{
+            border: none;
+            background: none;
+            /* 取消选中搜索框时的外边框 */
+            outline: none;
+            width: 0;
+            padding: 0;
+            transition: .4s;
+            line-height: 40px;
+            font-size: 20px;
+            color: white;
+            background-color: #009966;
+            	border-radius: 10px;
+        }
+        .cl{
+            color: #e94118;
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .4s;
+        }
